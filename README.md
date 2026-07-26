@@ -14,10 +14,6 @@ Security researcher and software engineer focused on memory safety, authorizatio
 | Vaultwarden | Independently reported an SSO email verification bypass, published as CVE-2026-47164 and fixed in 1.36.0. | [Writeup](https://tomryan.dev/writing/vaultwarden-sso-email-verified/) · [Advisory](https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-6x5c-84vm-5j56) |
 | Anthropic | One report resolved through HackerOne with a $100 bounty. Technical details are not public. | [HackerOne profile](https://hackerone.com/a5omic?type=user) |
 
-## How I work
-
-The edge is targeting and proof, not volume. I use focused fuzzers, source review, and target-native test harnesses to find suspicious boundaries. Every promising result gets reproduced in the target's compiled code before it reaches a maintainer. A plausible report is not enough. The bar is evidence that survives a hostile read.
-
 ## Building
 
 | Project | What it is |
